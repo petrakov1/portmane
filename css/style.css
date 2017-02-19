@@ -1,0 +1,164 @@
+/*
+<!--Created by Petrakov-->
+<!--Designed by VladShe -->
+<!-- http://vladshe.ru/ -->
+*/
+input::-webkit-input-placeholder {
+    text-indent: 0px;
+    -webkit-transition: text-indent 0.3s ease;
+    transition: text-indent 0.3s ease;
+}
+
+input::-moz-placeholder {
+    text-indent: 0px;
+    -webkit-transition: text-indent 0.3s ease;
+    transition: text-indent 0.3s ease;
+}
+
+input:-moz-placeholder {
+    text-indent: 0px;
+    -webkit-transition: text-indent 0.3s ease;
+    transition: text-indent 0.3s ease;
+}
+
+input:-ms-input-placeholder {
+    text-indent: 0px;
+    -webkit-transition: text-indent 0.3s ease;
+    transition: text-indent 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+    text-indent: 700px;
+    -webkit-transition: text-indent 0.3s ease;
+    transition: text-indent 0.3s ease;
+}
+
+input:focus::-moz-placeholder {
+    text-indent: 700px;
+    -webkit-transition: text-indent 0.3s ease;
+    transition: text-indent 0.3s ease;
+}
+
+input:focus:-moz-placeholder {
+    text-indent: 700px;
+    -webkit-transition: text-indent 0.3s ease;
+    transition: text-indent 0.3s ease;
+}
+
+input:focus:-ms-input-placeholder {
+    text-indent: 700px;
+    -webkit-transition: text-indent 0.3s ease;
+    transition: text-indent 0.3s ease;
+}
+
+input:focus {
+    outline: 0;
+}
+
+
+* {
+    margin: 0;
+    border: 0;
+    line-height: 1.2;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+html {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'PF BeauSans Pro';
+    color: black;
+}
+
+.wrap {
+    overflow: hidden;
+}
+section {
+    position: relative;
+    /* overflow: hidden; */
+}
+section > * {
+    max-width: 1280px;
+    width: 95%;
+    margin: auto;
+}
+section > #product  {
+	margin: 50px 0;
+	text-align: center;
+}
+.wrap9 {
+    /* overflow: hidden; */
+}
+
+section > .wrap9 {
+    max-width: 1025px;
+}
+section > .wrap7 {
+    max-width:  750px;
+}
+
+body {
+    background: white;
+    overflow-x: hidden;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+}
+
+body.open {
+    overflow: hidden;
+}
+.promo-products {
+		max-width: 1040px;
+
+
+}
+
+h1 {
+    text-transform: uppercase;
+}
+.back-grey {
+    background: #F5F5F5
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
