@@ -72,8 +72,8 @@ a {
 html {
     font-size: 14px;
     font-weight: 400;
-    font-family: 'PF BeauSans Pro';
-    color: black;
+  font-family: 'Proxima Nova Rg';
+    color: white;
 }
 
 .wrap {
@@ -124,12 +124,73 @@ body.open {
 h1 {
     text-transform: uppercase;
 }
-.back-grey {
-    background: #F5F5F5
+
+
+
+.back-blue {
+    background: RGBA(15, 27, 33, 1.00);
+}
+.black-bone{
+    background: RGBA(246, 237, 222, 1.00);
+}
+.yellow {
+    color: RGBA(255, 171, 71, 1.00);
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
 
+}
+.flex > * {
+    display: inline-block;
+    align-self: center;
+}
 
+#nav .logo {
+    height: 50px;
+}
+
+#nav {
+    padding: 10px 0;
+    padding-top: 5px;
+}
+#nav li{
+   list-style: none;
+   padding: 5px 0;  
+}
+#nav .props p{
+    font-weight: bold;
+}
+#nav .call {
+    text-align: right;
+}
+
+#header {
+    height: calc( 100vh - 76px);
+    background: url(images/1.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+#header > div {
+    text-align: right;
+    position: absolute;
+    bottom: 10vh;
+}
+#header div p{
+    width: 500px;
+    text-align: right;
+    margin-right: 0;
+}
+.rectangle {
+    background : RGBA(246, 237, 222, 1.00);
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+    color: RGBA(15, 27, 33, 1.00);
+}
 
 
 
