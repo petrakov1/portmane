@@ -311,10 +311,34 @@ left: 60vw;
     top: 90px;
     object-fit: contain;
 }
+#watch {
+    height: 550px;
+}
+#watch > img {
+    position: absolute;
+left: 50vw;
+    height: 200px;
+    bottom: 100px;
+    object-fit: contain;
+}
+#watch .watch
+{position: absolute;
+right: 50vw;
+    height: 200px;
+    bottom: 100px;
+    display: inline-block;
 
+} 
 
+#watch .watch img
+{    object-fit: contain;
 
-
+    width: 20vw;
+} 
+#watch .text {
+    display: inline-block;
+    width: 30vw;
+}
 
 
 
